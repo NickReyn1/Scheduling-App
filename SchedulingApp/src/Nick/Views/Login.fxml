@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="693.0" prefWidth="1053.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Nick.Controller.LoginController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafafa00" height="469.0" layoutX="158.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE" width="691.0" />
+      <TextField fx:id="userNameText" layoutX="428.0" layoutY="334.0" promptText="User Name" />
+      <TextField fx:id="passwordText" layoutX="428.0" layoutY="410.0" promptText="Password" />
+      <Label fx:id="userNameLabel" layoutX="473.0" layoutY="316.0" text="User Name" />
+      <Label fx:id="passwordLabel" layoutX="478.0" layoutY="393.0" text="Password" />
+      <Label fx:id="loginLabel" layoutX="455.0" layoutY="204.0" text="Login">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginButton" layoutX="477.0" layoutY="474.0" mnemonicParsing="false" onAction="#onLoginClicked" text="Login" />
+      <Button fx:id="exitButton" layoutX="477.0" layoutY="510.0" mnemonicParsing="false" onAction="#onExitClicked" prefHeight="25.0" prefWidth="46.0" text="Exit" />
+      <Label fx:id="zoneIdLabel" layoutX="172.0" layoutY="104.0" text="ZoneID" />
+   </children>
+</AnchorPane>
